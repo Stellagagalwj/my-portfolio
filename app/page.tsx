@@ -34,12 +34,12 @@ export default function Home() {
           <div className="mb-8">
             <h1 className="text-5xl lg:text-5xl font-medium mb-4">
               Hi! I'm{' '}
-              <span className="font-medium text-transparent bg-clip-text bg-gradient-to-b from-yellow-200 to-orange-300 to-pink-400">
+              <span className="font-medium text-transparent bg-clip-text bg-gradient-to-b from-white to-yellow-400">
                 Weijia (Stella)
               </span>
             </h1>
-            <h2 className="text-4xl lg:text-5xl font-medium tracking-tight mb-6 leading-tight text-white">
-              I build AI-driven products that make everyday health intuitive and engaging
+            <h2 className="text-5xl lg:text-5xl font-medium tracking-tight mb-6 leading-tight text-white max-w-2xl mx-auto">
+              I craft AI-driven products for intuitive health routines
             </h2>
             <p className="text-lg lg:text-xl text-zinc-400 max-w-2xl mx-auto">
               AI for Health M.S. in Sweden | Biotech & Neuroscience Background
@@ -56,7 +56,14 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
                 <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-6xl opacity-50">🏥</div>
+                  <video 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                  src="/projects/healthcheckdemo.mp4"
+                />
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-4">Photo Health Checker</h3>
@@ -77,7 +84,14 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
                 <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-6xl opacity-50">🐷</div>
+                  <video 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                  src="/projects/piggygym-demo.mp4"
+                />
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-4">Pixel Piggy Fitness Timer</h3>
@@ -98,7 +112,14 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
                 <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <div className="text-6xl opacity-50">🥗</div>
+                  <video 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                  src="/projects/meal-planner.mp4"
+                />
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-4">Meal Planner</h3>
