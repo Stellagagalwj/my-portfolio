@@ -21,9 +21,14 @@ export default function Home() {
                 About
               </a>
             </div>
-            <button className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-yellow-100 transition-colors">
+            <a 
+              href="https://www.linkedin.com/in/weijia-li-stella/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-yellow-100 transition-colors"
+            >
               Let's Connect!
-            </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -34,7 +39,7 @@ export default function Home() {
           <div className="mb-8">
             <h1 className="text-5xl lg:text-5xl font-medium mb-4">
               Hi! I'm{' '}
-              <span className="font-medium text-transparent bg-clip-text bg-gradient-to-b from-white to-yellow-400">
+              <span className="font-medium text-transparent bg-clip-text bg-gradient-to-b from-yellow-200 to-pink-300">
                 Weijia (Stella)
               </span>
             </h1>
@@ -66,16 +71,16 @@ export default function Home() {
                 />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Photo Health Checker</h3>
+              <h3 className="text-2xl font-bold mb-4">Visual Health Scanner</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
                   React Native
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  AI Integration
+                  AI Diagnostics
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Cross-platform
+                  Computer Vision
                 </span>
               </div>
             </div>
@@ -94,16 +99,16 @@ export default function Home() {
                 />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Pixel Piggy Fitness Timer</h3>
+              <h3 className="text-2xl font-bold mb-4">Pixel Piggy Gym Timer</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  UI/UX Design
+                  Interactive UI
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Gamification
+                  React Native
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Frontend
+                  Fitness Tracking
                 </span>
               </div>
             </div>
@@ -205,11 +210,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 mb-4 md:mb-0">
-              © 2026 Weijia (Stella) Portfolio
+              © 2026 Weijia (Stella)
             </div>
             <div className="flex gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/weijia-li-stella/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
@@ -217,7 +222,7 @@ export default function Home() {
                 <span className="text-black text-lg font-bold">in</span>
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/Stellagagalwj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
