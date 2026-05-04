@@ -4,34 +4,32 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Floating Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-zinc-800">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center space-x-8">
-              <a 
-                href="#work" 
-                className="px-4 py-2 border border-zinc-600 rounded-full text-white hover:text-yellow-100 hover:border-zinc-500 transition-colors font-medium"
-              >
-                Work
-              </a>
-              <a 
-                href="#about" 
-                className="px-4 py-2 border border-zinc-600 rounded-full text-white hover:text-yellow-100 hover:border-zinc-500 transition-colors font-medium"
-              >
-                About
-              </a>
-            </div>
-            <a 
-              href="https://www.linkedin.com/in/weijia-li-stella/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-yellow-100 transition-colors"
-            >
-              Let's Connect!
-            </a>
-          </div>
-        </div>
-      </nav>
+      {/* 真·悬浮胶囊 Navbar */}
+    {/* 极致悬浮居中胶囊 Navbar */}
+<nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 bg-black/80 backdrop-blur-md border border-zinc-800 rounded-full px-2 py-2">
+  <div className="flex items-center justify-center space-x-2 sm:space-x-4">
+    <a 
+      href="#work" 
+      className="px-4 py-2 rounded-full text-white text-sm font-medium hover:text-yellow-100 hover:bg-zinc-800/80 transition-colors"
+    >
+      WORK
+    </a>
+    <a 
+      href="#about" 
+      className="px-4 py-2 rounded-full text-white text-sm font-medium hover:text-yellow-100 hover:bg-zinc-800/80 transition-colors"
+    >
+      ABOUT
+    </a>
+    <a 
+      href="https://www.linkedin.com/in/weijia-li-stella/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white text-black px-5 py-2 rounded-full text-sm font-medium hover:bg-yellow-100 transition-colors"
+    >
+      LET'S CONNECT!
+    </a>
+  </div>
+</nav>
 
       {/* Hero Section */}
       <section className="min-h-[60vh] flex items-center justify-center px-6 lg:px-8 pt-42">
