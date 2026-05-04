@@ -32,7 +32,7 @@ export default function Home() {
 </nav>
 
       {/* Hero Section */}
-      <section className="min-h-[60vh] flex items-center justify-center px-6 lg:px-8 pt-42">
+      <section className="min-h-[60vh] flex items-center justify-center px-6 lg:px-8 pt-50">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
             <h1 className="text-5xl lg:text-5xl font-medium mb-4">
