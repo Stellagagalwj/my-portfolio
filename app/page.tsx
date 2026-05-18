@@ -55,7 +55,7 @@ export default function Home() {
       <section id="work" className="py-24 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            {/* Project 1: Photo Health Checker */}
+            {/* Project 1: MetaboFlow */}
             <div className="group cursor-pointer">
               <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
                 <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
@@ -65,25 +65,25 @@ export default function Home() {
                   loop 
                   muted 
                   playsInline
-                  src="/projects/healthcheckdemo.mp4"
+                  src="/projects/metaboflow.mp4"
                 />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Visual Health Scanner</h3>
+              <h3 className="text-2xl font-bold mb-4">MetaboFlow</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  React Native
+                  AI agent
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  AI Diagnostics
+                  Metabolic Health
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  LLM API Integration
+                  Rapid Prototyping
                 </span>
               </div>
             </div>
 
-            {/* Project 2: Pixel Pig Fitness Timer */}
+            {/* Project 2: Pixel Piggy Gym Timer */}
             <div className="group cursor-pointer">
               <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
                 <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
@@ -111,7 +111,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 3: MetaboFlow */}
+            {/* Project 3: Visual Health Scanner */}
             <div className="group cursor-pointer">
               <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
                 <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
@@ -121,20 +121,20 @@ export default function Home() {
                   loop 
                   muted 
                   playsInline
-                  src="/projects/metaboflow.mp4"
+                  src="/projects/healthcheckdemo.mp4"
                 />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4">MetaboFlow</h3>
+              <h3 className="text-2xl font-bold mb-4">Visual Health Scanner</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  AI agent
+                  React Native
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Patient-Centric Design
+                  AI Diagnostics
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Rapid Prototyping
+                  LLM API Integration
                 </span>
               </div>
             </div>
