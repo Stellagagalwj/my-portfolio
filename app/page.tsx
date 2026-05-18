@@ -121,7 +121,7 @@ export default function Home() {
                   loop 
                   muted 
                   playsInline
-                  src="/projects/meal-planner.mp4"
+                  src="/projects/metaboflow.mp4"
                 />
                 </div>
               </div>
