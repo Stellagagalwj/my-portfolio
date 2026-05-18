@@ -78,7 +78,7 @@ export default function Home() {
                   AI Diagnostics
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Computer Vision
+                  LLM API Integration
                 </span>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 3: Meal Planner */}
+            {/* Project 3: MetaboFlow */}
             <div className="group cursor-pointer">
               <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
                 <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
@@ -125,16 +125,16 @@ export default function Home() {
                 />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Meal Planner</h3>
+              <h3 className="text-2xl font-bold mb-4">MetaboFlow</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  React Native
+                  AI agent
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  AI Integration
+                  Patient-Centric Design
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Cross-platform
+                  Rapid Prototyping
                 </span>
               </div>
             </div>
