@@ -50,10 +50,6 @@ export default function About() {
             
             {/* 文字部分 */}
             <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-8">
-                Beyond the Code
-              </h1>
-              
               <div className="text-zinc-400 space-y-5 leading-relaxed text-lg">
                 <p>
                   Hi, I'm Weijia (Stella). With a background in AI for Health and neuroscience, I craft AI-driven products/agents for intuitive health routines. My ultimate vision is to leverage AI to contribute to a more equitable future through accessible approaches.
