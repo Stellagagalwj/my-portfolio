@@ -63,25 +63,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* 教育背景部分 */}
-            <div className="pt-8 border-t border-zinc-800/80">
-              <h3 className="text-white font-medium mb-6 text-lg">Education</h3>
-              <ul className="space-y-5 text-zinc-400 text-sm">
-                <li>
-                  <strong className="text-zinc-200 block text-base mb-0.5">Stockholm University</strong>
-                  M.Sc. in AI for Health (Expected 2027)
-                </li>
-                <li>
-                  <strong className="text-zinc-200 block text-base mb-0.5">HKUST</strong>
-                  M.Phil in Neuroscience
-                </li>
-                <li>
-                  <strong className="text-zinc-200 block text-base mb-0.5">SCUT</strong>
-                  B.Sc. in Biotechnology
-                </li>
-              </ul>
-            </div>
-
           </div>
 
         </div>
