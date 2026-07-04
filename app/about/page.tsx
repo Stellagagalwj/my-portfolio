@@ -50,18 +50,18 @@ export default function About() {
             
             {/* 文字部分 */}
             <div className="space-y-6">
-              <div className="text-zinc-400 space-y-5 leading-relaxed text-lg">
+              <div className="text-zinc-400 space-y-8 leading-relaxed text-lg">
                 <p>
-                  Hi, I'm Weijia (Stella). 
+                  Hi, I'm Weijia (Stella)!
                 </p>
                 <p>
-                  With a background in AI for Health and neuroscience, I craft AI-driven products/agents for intuitive health routines. My ultimate vision is to leverage AI to contribute to a more equitable future through accessible approaches.
+                  With a background in AI for Health and neuroscience, I craft AI-driven products/agents for intuitive health routines, from computer vision diagnostics to gamified behavioral health tools.
                 </p>
                 <p>
-                  With a foundation in Biotech and Neuroscience, today, I translate medical and technical insights into accessible applications—from computer vision diagnostics to gamified behavioral health tools.
+                  My ultimate vision is to leverage AI to contribute to a more equitable future through accessible approaches.
                 </p>
                 <p>
-                  You can usually find me enjoying the nature or doing ultimate frisbee when I'm not working:)
+                  You can usually find me enjoying the nature or doing ultimate frisbee when I'm not working :)
                 </p>
               </div>
             </div>
