@@ -31,7 +31,7 @@ export default function About() {
 
       {/* About 内容主体 */}
       <main className="pt-32 pb-24 max-w-5xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* 左侧：个人照片 (占据 5 列) */}
           <div className="md:col-span-5 order-2 md:order-1 mt-8 md:mt-0">
