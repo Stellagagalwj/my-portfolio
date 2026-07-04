@@ -1,3 +1,5 @@
+import { GraduationCap, Code, Database, Layout, Activity, Puzzle } from 'lucide-react';
+
 export default function About() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -89,6 +91,67 @@ export default function About() {
 
         </div>
       </main>
+
+      {/* Infinite Marquee Skills Section */}
+      <section className="py-8 overflow-hidden bg-zinc-950">
+        <div className="relative">
+          <div className="marquee-content animate-marquee">
+            <div className="flex items-center space-x-12 px-6">
+              <div className="flex items-center space-x-3 text-gray-300">
+                <GraduationCap className="w-6 h-6" />
+                <span className="text-base font-medium">M.S AI for Health @SU</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <GraduationCap className="w-6 h-6" />
+                <span className="text-base font-medium">MPhil Life Science @HKUST</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Code className="w-6 h-6" />
+                <span className="text-base font-medium">React Native & Next.js</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Database className="w-6 h-6" />
+                <span className="text-base font-medium">Machine Learning & NLP</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Puzzle className="w-6 h-6" />
+                <span className="text-base font-medium">UI/UX & Product Design</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Activity className="w-6 h-6" />
+                <span className="text-base font-medium">Data Mining & Analytics</span>
+              </div>
+            </div>
+            {/* Duplicate set for seamless loop */}
+            <div className="flex items-center space-x-12 px-6">
+              <div className="flex items-center space-x-3 text-gray-300">
+                <GraduationCap className="w-6 h-6" />
+                <span className="text-base font-medium">M.S AI for Health @SU</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <GraduationCap className="w-6 h-6" />
+                <span className="text-base font-medium">MPhil Life Science @HKUST</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Code className="w-6 h-6" />
+                <span className="text-base font-medium">React Native & Next.js</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Database className="w-6 h-6" />
+                <span className="text-base font-medium">Machine Learning & NLP</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Puzzle className="w-6 h-6" />
+                <span className="text-base font-medium">UI/UX & Product Design</span>
+              </div>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <Activity className="w-6 h-6" />
+                <span className="text-base font-medium">Data Mining & Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer with Social Media Icons */}
       <footer className="py-12 px-6 lg:px-8 border-t border-zinc-800">
