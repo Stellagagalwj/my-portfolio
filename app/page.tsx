@@ -15,7 +15,7 @@ export default function Home() {
       WORK
     </a>
     <a 
-      href="#about" 
+      href="/about" 
       className="px-4 py-2 rounded-full text-white text-sm font-medium hover:text-yellow-100 hover:bg-zinc-800/80 transition-colors"
     >
       ABOUT
