@@ -7,7 +7,7 @@ export default function About() {
       <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 bg-black/80 backdrop-blur-md border border-zinc-800 rounded-full px-2 py-2">
   <div className="flex items-center justify-center space-x-2 sm:space-x-4">
     <a 
-      href="#work" 
+      href="/" 
       className="px-4 py-2 rounded-full text-white text-sm font-medium hover:text-yellow-100 hover:bg-zinc-800/80 transition-colors"
     >
       WORK
@@ -35,7 +35,6 @@ export default function About() {
           
           {/* 左侧：个人照片 (占据 5 列) */}
           <div className="md:col-span-5 order-2 md:order-1 mt-8 md:mt-0">
-            {/* 照片占位：把 your-photo.jpg 换成你的真实照片路径 */}
             <div className="aspect-[3/4] rounded-2xl bg-zinc-900 border border-zinc-800 overflow-hidden relative shadow-2xl">
               <img 
                 src="/your-photo.jpg" 
