@@ -56,13 +56,13 @@ export default function About() {
               
               <div className="text-zinc-400 space-y-5 leading-relaxed text-lg">
                 <p>
-                  Hi, I'm Weijia (Stella) Li. I am an interdisciplinary developer and researcher bridging the gap between rigorous scientific research and human-centric digital experiences. I am currently pursuing my Master's in AI for Health at Stockholm University.
+                  Hi, I'm Weijia (Stella). With a background in AI for Health and neuroscience, I craft AI-driven products/agents for intuitive health routines. My ultimate vision is to leverage AI to contribute to a more equitable future through accessible approaches.
                 </p>
                 <p>
-                  With a foundation in Biotechnology and an MPhil in Neuroscience from HKUST, my journey began by solving complex challenges in labs. However, my passion for scalable impact led me to software development. Today, I translate medical and technical insights into accessible applications—from computer vision diagnostics to gamified behavioral health tools.
+                  With a foundation in Biotech and Neuroscience, today, I translate medical and technical insights into accessible applications—from computer vision diagnostics to gamified behavioral health tools.
                 </p>
                 <p>
-                  I believe the best health products are built by those who live the lifestyle. When I'm not architecting AI-driven applications or refining prompts, you can usually find me training for my next 10km run, pushing through a BodyPump class, or exploring museums across Europe.
+                  You can usually find me enjoying the nature or doing ultimate frisbee :)
                 </p>
               </div>
             </div>
