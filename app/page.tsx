@@ -56,19 +56,26 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Project 1: MetaboFlow */}
-            <div className="group cursor-pointer">
-              <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
-                <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <video 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline
-                  src="/projects/metaboflow.mp4"
-                />
+            <div className="group">
+              <a 
+                href="https://metaboflow.lovable.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block cursor-pointer"
+              >
+                <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
+                  <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <video 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    autoPlay 
+                    loop 
+                    muted 
+                    playsInline
+                    src="/projects/metaboflow.mp4"
+                  />
+                  </div>
                 </div>
-              </div>
+              </a>
               <h3 className="text-2xl font-bold mb-4">Metabolic Health Tracker·BG/BP</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
@@ -84,19 +91,26 @@ export default function Home() {
             </div>
 
             {/* Project 2: Pixel Piggy Gym Timer */}
-            <div className="group cursor-pointer">
-              <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
-                <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <video 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline
-                  src="/projects/piggygym-demo.mp4"
-                />
+            <div className="group">
+              <a 
+                href="https://piggy-gym-timer.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block cursor-pointer"
+              >
+                <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
+                  <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <video 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    autoPlay 
+                    loop 
+                    muted 
+                    playsInline
+                    src="/projects/piggygym-demo.mp4"
+                  />
+                  </div>
                 </div>
-              </div>
+              </a>
               <h3 className="text-2xl font-bold mb-4">Pixel Piggy Gym Timer</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
@@ -112,19 +126,26 @@ export default function Home() {
             </div>
 
             {/* Project 3: Visual Health Scanner */}
-            <div className="group cursor-pointer">
-              <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
-                <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <video 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline
-                  src="/projects/healthcheckdemo.mp4"
-                />
+            <div className="group">
+              <a 
+                href="https://pixel-health-card.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block cursor-pointer"
+              >
+                <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
+                  <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <video 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    autoPlay 
+                    loop 
+                    muted 
+                    playsInline
+                    src="/projects/healthcheckdemo.mp4"
+                  />
+                  </div>
                 </div>
-              </div>
+              </a>
               <h3 className="text-2xl font-bold mb-4">Visual Health Scanner</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
