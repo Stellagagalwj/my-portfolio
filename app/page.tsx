@@ -33,13 +33,13 @@ export default function Home() {
       <section className="min-h-[60vh] flex items-center justify-center px-6 lg:px-8 pt-32 md:pt-48">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl lg:text-5xl font-medium mb-4">
+            <h1 className="text-3xl md:text-5xl lg:text-5xl font-medium mb-4">
               Hi! I'm{' '}
-              <span className="font-medium text-transparent bg-clip-text bg-gradient-to-b from-yellow-200 to-pink-300">
+              <span className="font-medium text-transparent bg-clip-text bg-gradient-to-b from-yellow-200 to-pink-300 whitespace-nowrap">
                 Weijia (Stella)
               </span>
             </h1>
-            <h2 className="text-4xl md:text-5xl lg:text-5xl font-medium tracking-tight mb-6 leading-tight text-white max-w-2xl mx-auto">
+            <h2 className="text-3xl md:text-5xl lg:text-5xl font-medium tracking-tight mb-6 leading-tight text-white max-w-2xl mx-auto">
               I craft AI-driven products for intuitive health routines
             </h2>
             <p className="text-base md:text-lg lg:text-xl text-zinc-400 max-w-2xl mx-auto">
