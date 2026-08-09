@@ -111,7 +111,7 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-              <h3 className="text-2xl font-bold mb-4">Cloud-Native DICOM Gateway: AWS S3 & GDPR Compliant</h3>
+              <h3 className="text-2xl font-bold mb-4">DICOM Router Gateway - AWS S3 & GDPR Compliant</h3>
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
                   FastAPI
