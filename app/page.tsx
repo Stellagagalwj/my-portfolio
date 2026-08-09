@@ -125,7 +125,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 2: Enterprise DICOM Gateway - AWS S3 & GDPR Compliant */}
+            {/* Project 3: Enterprise DICOM Gateway - AWS S3 & GDPR Compliant */}
             <div className="group">
               <a 
                 href="https://github.com/Stellagagalwj/Hospital-DICOM-Router-Gateway" 
@@ -141,7 +141,7 @@ export default function Home() {
                     loop 
                     muted 
                     playsInline
-                    src="/projects/piggygym-demo.mp4"
+                    src="/projects/DICOMRouterGatewaydemo.mp4"
                   />
                   </div>
                 </div>
@@ -150,6 +150,9 @@ export default function Home() {
               <div className="flex flex-wrap gap-2">
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
                   FastAPI
+                </span>
+                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
+                  Docker
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
                   AWS S3
@@ -163,7 +166,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 3: Visual Health Scanner */}
+            {/* Project 4: Visual Health Scanner */}
             <div className="group">
               <a 
                 href="https://pixel-health-card.vercel.app/" 
