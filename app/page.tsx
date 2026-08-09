@@ -90,7 +90,51 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 2: Pixel Piggy Gym Timer */}
+            {/* Project 2: Enterprise DICOM Gateway - AWS S3 & GDPR Compliant */}
+            <div className="group">
+              <a 
+                href="https://github.com/Stellagagalwj/Hospital-DICOM-Router-Gateway?tab=readme-ov-file" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block cursor-pointer"
+              >
+                <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
+                  <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                    <video 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    autoPlay 
+                    loop 
+                    muted 
+                    playsInline
+                    src="/projects/DICOMRouterGatewaydemo.mp4"
+                  />
+                  </div>
+                </div>
+              </a>
+              <h3 className="text-2xl font-bold mb-4">Cloud-Native DICOM Gateway: AWS S3 & GDPR Compliant</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
+                  FastAPI
+                </span>
+                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
+                  Docker
+                </span>
+                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
+                  AWS S3
+                </span>
+                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
+                  Pytest
+                </span>
+                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
+                  GDPR Compliance
+                </span>
+                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
+                  HealthTech
+                </span>
+              </div>
+            </div>
+
+            {/* Project 3: Pixel Piggy Gym Timer */}
             <div className="group">
               <a 
                 href="https://piggy-gym-timer.vercel.app/" 
@@ -121,47 +165,6 @@ export default function Home() {
                 </span>
                 <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
                   Fitness Tracking
-                </span>
-              </div>
-            </div>
-
-            {/* Project 3: Enterprise DICOM Gateway - AWS S3 & GDPR Compliant */}
-            <div className="group">
-              <a 
-                href="https://github.com/Stellagagalwj/Hospital-DICOM-Router-Gateway" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block cursor-pointer"
-              >
-                <div className="overflow-hidden rounded-3xl mb-6 border border-zinc-800 hover:border-zinc-600 transition-all duration-300">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                    <video 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    autoPlay 
-                    loop 
-                    muted 
-                    playsInline
-                    src="/projects/DICOMRouterGatewaydemo.mp4"
-                  />
-                  </div>
-                </div>
-              </a>
-              <h3 className="text-2xl font-bold mb-4">Enterprise DICOM Gateway - AWS S3 & GDPR Compliant</h3>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  FastAPI
-                </span>
-                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Docker
-                </span>
-                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  AWS S3
-                </span>
-                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  Pytest
-                </span>
-                <span className="px-4 py-2 border border-zinc-600 rounded-full text-sm text-zinc-300 hover:bg-zinc-800 transition-colors">
-                  GDPR Compliance
                 </span>
               </div>
             </div>
