@@ -62,9 +62,6 @@ export default function AvatarWidget() {
                     transition-all duration-300 ease-in-out origin-bottom
                     ${isHovered ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-50 translate-y-4'}`}
       >
-        <span className="text-sm font-bold text-slate-700">Hi! 看看这个项目✨</span>
-        {/* 气泡小尾巴 */}
-        <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-white/80 border-b border-r border-white/40 rotate-45 backdrop-blur-sm"></div>
       </div>
 
       {/* 4. 人物图片展示 */}
