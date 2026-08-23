@@ -1,4 +1,5 @@
 import { GraduationCap, Code, Database, Layout, Activity, Puzzle } from 'lucide-react';
+import AvatarWidget from './AvatarWidget';
 
 export default function Home() {
   return (
@@ -45,6 +46,10 @@ export default function Home() {
             <p className="text-base md:text-lg lg:text-xl text-zinc-400 max-w-2xl mx-auto">
               AI for Health M.S. in Sweden | Biotech & Neuroscience Background
             </p>
+          </div>
+          {/* 🌟 在这里加入 AvatarWidget，让它在屏幕中间跟访客打招呼 🌟 */}
+          <div className="flex justify-center mt-8 relative">
+            <AvatarWidget />
           </div>
         </div>
       </section>
