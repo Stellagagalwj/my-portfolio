@@ -29,24 +29,46 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="min-h-[60vh] flex items-center justify-center px-6 lg:px-8 pt-32 md:pt-48">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8">
+      {/* Hero Section (Updated: Grouped Big Text + Avatar, Independent Subtitle) */}
+      <section className="min-h-[60vh] flex flex-col items-center justify-center w-full px-6 lg:px-8 pt-32 md:pt-48 pb-12 overflow-hidden">
+        
+        {/* 第一部分：数字人 + 大标题 (作为一个整体居中，底部对齐) */}
+        <div className="flex flex-col md:flex-row items-center md:items-end justify-center w-full max-w-6xl mx-auto">
+          
+          {/* 数字人 */}
+          {/* 这里的 md:-mr-4 lg:-mr-8 可以随时微调人物和大字的紧密程度 */}
+          <div className="w-20 sm:w-24 md:w-28 lg:w-32 flex-shrink-0 z-10 relative mb-6 md:mb-0 md:-mr-4 lg:-mr-8">
+            <img 
+              src="/images/weijia_full_body.png" 
+              alt="Weijia (Stella) 3D Avatar" 
+              className="w-full h-auto object-contain object-bottom drop-shadow-[0_10px_25px_rgba(253,224,71,0.15)]"
+            />
+          </div>
+
+          {/* 大标题 */}
+          <div className="text-center z-20 px-4 md:px-0">
             <h1 className="text-3xl md:text-5xl lg:text-5xl font-medium mb-4">
               Hi! I'm{' '}
               <span className="font-medium text-transparent bg-clip-text bg-gradient-to-b from-yellow-200 to-pink-300 whitespace-nowrap">
                 Weijia (Stella)
               </span>
             </h1>
-            <h2 className="text-3xl md:text-5xl lg:text-5xl font-medium tracking-tight mb-6 leading-tight text-white max-w-2xl mx-auto">
+            {/* 注意：我去掉了这里的 mb-6，让大字的底部真正成为这个容器的底部，完美对齐人物的脚 */}
+            <h2 className="text-3xl md:text-5xl lg:text-5xl font-medium tracking-tight leading-tight text-white max-w-2xl mx-auto">
               I craft AI-driven products for intuitive health routines
             </h2>
-            <p className="text-base md:text-lg lg:text-xl text-zinc-400 max-w-2xl mx-auto">
-              AI for Health M.S. in Sweden | Biotech & Neuroscience Background
-            </p>
           </div>
+          
         </div>
+
+        {/* 第二部分：灰色副标题 (独立在下方居中) */}
+        {/* 用 mt-8 md:mt-10 增加一点向上的间距，和上方的大字/人物稍微隔开 */}
+        <div className="mt-8 md:mt-10 z-20 text-center w-full">
+          <p className="text-base md:text-lg lg:text-xl text-zinc-400 mx-auto px-4">
+            AI for Health M.S. in Sweden | Biotech & Neuroscience Background
+          </p>
+        </div>
+        
       </section>
 
       {/* Projects Grid */}
