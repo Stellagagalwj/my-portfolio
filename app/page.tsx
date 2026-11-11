@@ -3,7 +3,7 @@ import { GraduationCap, Code, Database, Layout, Activity, Puzzle } from 'lucide-
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* 极致悬浮居中胶囊 Navbar */}
+      {/* 极致悬浮居中胶囊 Navbar。 */}
       <nav className="fixed top-6 md:top-8 left-1/2 -translate-x-1/2 z-50 bg-black/80 backdrop-blur-md border border-zinc-800 rounded-full px-2 py-1.5 md:py-2 w-max max-w-[90vw]">
         <div className="flex items-center justify-center space-x-1 sm:space-x-4">
           <a 
